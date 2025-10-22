@@ -1,0 +1,22 @@
+# Core
+numpy
+pandas
+scikit-learn
+pydicom
+highdicom
+SimpleITK
+scikit-image
+pillow
+
+# Metrics & monitoring
+great-expectations
+opentelemetry-sdk
+
+# Workflow / agents
+langgraph
+fastapi
+uvicorn
+
+# Visualization
+matplotlib
+plotly

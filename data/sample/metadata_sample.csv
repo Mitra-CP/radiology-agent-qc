@@ -1,0 +1,4 @@
+study_uid,series_uid,modality,protocol_name,slice_thickness_mm,tr_ms,te_ms,contrast_bolus,patient_sex,study_date,body_part_examined,scanner_model,technologist_id
+1,1-1,CT,CT_ABD_WC,5.0,, ,Yes,F,2025-10-01,ABDOMEN,CT3,T42
+2,2-1,MR,MR_BRAIN_T1,,600,12,No,M,2025-10-02,BRAIN,MR2,T18
+3,3-1,CT,CT_ABD_WC,1.5,, ,Yes,F,2025-10-03,ABDOMEN,CT1,T42

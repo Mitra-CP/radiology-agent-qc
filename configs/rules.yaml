@@ -1,0 +1,21 @@
+protocols:
+  CT_ABD_WC:
+    modality: CT
+    body_region: abdomen
+    expected:
+      slice_thickness_mm: [1.0, 2.5]
+      contrast_required: true
+  MR_BRAIN_T1:
+    modality: MR
+    body_region: brain
+    expected:
+      tr_ms: [400, 900]
+      te_ms: [8, 20]
+
+thresholds:
+  image_quality:
+    efc_max: 0.95   # higher can indicate motion/blur
+    fber_min: 1.2   # low can indicate ringing/low energy
+  dose:
+    ctdi_vol_max_mgy: 20.0
+    dlp_max_mgy_cm: 800.0

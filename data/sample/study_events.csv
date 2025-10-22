@@ -1,0 +1,4 @@
+timestamp,study_uid,event,detail
+2025-10-01T10:00:00Z,1,acquisition_completed,"CT abdomen w/ contrast"
+2025-10-02T11:30:00Z,2,acquisition_completed,"MR brain T1"
+2025-10-03T09:15:00Z,3,acquisition_completed,"CT abdomen w/ contrast"

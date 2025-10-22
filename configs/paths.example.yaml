@@ -1,0 +1,3 @@
+# Example paths config
+dicom_root: ""   # set to your local DICOM directory to run on real data
+outputs_dir: "outputs"
